@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98352b8e-d4e9-402c-a22b-1f0810f485c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo.css" beforeDir="false" afterPath="$PROJECT_DIR$/photo.css" afterDir="false" />
@@ -28,6 +27,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,7 +45,12 @@
       <option name="presentableId" value="Default" />
       <updated>1589814762990</updated>
       <workItem from="1589814764263" duration="1865000" />
-      <workItem from="1598349031982" duration="1806000" />
+      <workItem from="1598349031982" duration="2458000" />
+      <workItem from="1613120381664" duration="113000" />
+      <workItem from="1613123447598" duration="320000" />
+      <workItem from="1613127424747" duration="182000" />
+      <workItem from="1613135518854" duration="247000" />
+      <workItem from="1619606060830" duration="7021000" />
     </task>
     <servers />
   </component>
@@ -61,9 +71,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="335" key="FileChooserDialogImpl" timestamp="1589879733653">
+    <state x="2660" y="335" key="FileChooserDialogImpl" timestamp="1613123722925">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2660" y="335" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1589879733653" />
+    <state x="2660" y="335" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1613123722925" />
   </component>
 </project>

@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #000000;
+  background: #000000;
 }
 
 main {
@@ -28,6 +28,7 @@ nav {
 img {
   height: auto;
   width: 100%;
+  transition: .3s;
 }
 
 footer {
@@ -40,6 +41,7 @@ footer {
 .features-wrapper {
   margin: 0 auto;
   max-width: 90%;
+
 }
 
 .features p {
@@ -49,6 +51,28 @@ footer {
   text-align: center;
   background-color: #c5c2c2a1;
   color: #525050;
+}
+
+.img-wrapper {
+  overflow: hidden
+}
+
+.features-wrapper:hover .features:not(:hover) {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: ease .8s;
+}
+
+img:hover {
+  /*opacity: 80%;*/
+  /*cursor: pointer;*/
+  transform: scale(1.1);
+}
+
+p:hover {
+  color: #b70000;
+  transition: ease 0.5s;
+  cursor: pointer;
 }
 
 
@@ -62,15 +86,6 @@ footer {
   .features p {
     font-size: 25px;
     top: -47px;
-  }
-  p:hover {
-    color: #b70000;
-    transition: ease 0.5s;
-    cursor: pointer;
-  }
-  img:hover {
-    opacity: 70%;
-    cursor: pointer;
   }
 }
 
@@ -89,6 +104,12 @@ footer {
   }
 }
 
+@media (min-width: 1100px) {
+  .features-wrapper {
+      display: flex;
+  }
+}
+
 @media (min-width: 1200px) {
   main {
     margin-top: 100px;
@@ -100,7 +121,5 @@ footer {
     padding: 20px 40px;
     font-size: 25px;
   }
-  .features-wrapper {
-    display: flex;
-  }
 }
+
